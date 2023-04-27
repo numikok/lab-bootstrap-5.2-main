@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url("../images/coffee-biscuits.jpg");
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.glass{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 4%;
+    border-radius: 25px;
+}
+.ours{
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+}
+.card-text{
+    font-size: 23px;
+}
+.card-title{
+    font-size: 30px;
+}  
+.abtus{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.about-us-main{
+    margin-top: 5rem;
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+.col{
+    padding-top: 25px;
+}
+.pic{
+    float: left;
+    /* display: inline-block; */
+    
+}
+.card-body{
+    float: right;
+}
+@media (min-width:319px) {
+    .col-lg-2 {
+        display: none !important;
+    }
+}
+
+@media (min-width:519px) {
+    .col-lg-2 {
+        display: block !important;
+    }
+}
